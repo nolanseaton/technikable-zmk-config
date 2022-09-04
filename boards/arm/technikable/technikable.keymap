@@ -69,7 +69,7 @@
             label = "Nav";
             bindings = <
 	&kp ESC   &none   &kp RET   &kp TAB    &kp LPAR &none &none        &kp RPAR &none &kp UP &none &kp HOME
-   	&kp LSFT &kp LCTRL &kp LALT &kp LGUI &kp LBRC &none &none          &kp RBRC &kp LEFT &kp DOWN &kp RIGHT &kp END
+   	&kp LSFT &kp LCTRL &kp LALT &kp LGUI &kp LBKT &none &none          &kp RBKT &kp LEFT &kp DOWN &kp RIGHT &kp END
    	&kp DEL    &kp INS    &none   &none   &kp SPACE &none &none     &none &none &none &none &none
                              &trans &trans &trans &none &none           &trans &trans &trans
             >;
