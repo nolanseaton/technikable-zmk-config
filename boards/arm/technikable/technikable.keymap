@@ -28,7 +28,7 @@
 
 / {
     chosen {
-       zmk,physical-layout = &technikable_ortho_layout
+       zmk,physical-layout = &technikable_ortho_layout;
     };
     
     behaviors {
