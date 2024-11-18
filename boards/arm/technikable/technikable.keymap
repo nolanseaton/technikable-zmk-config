@@ -28,7 +28,14 @@
 
 / {
     chosen {
-       zmk,matrix_transform = &ortho_transform;
+       zmk,physical-layout =
+#ifdef TBLE_DUAL_2U
+                       &technikable_dual_2u_layout;
+#elif defined(TBLE_MIT)
+                       &technikable_mit_layout;
+#else
+                       &technikable_ortho_layout;
+#endif
     };
     
     behaviors {
